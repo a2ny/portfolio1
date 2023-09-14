@@ -1,0 +1,18 @@
+.typo {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+img {
+  width: 70px;
+}
+.btnCart {
+  background-color: rgb(255, 255, 0);
+  border: 1px solid black;
+  color: white;
+}
+.btnCart:hover {
+  background-color: rgb(204, 204, 0);
+}

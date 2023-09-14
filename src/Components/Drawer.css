@@ -1,0 +1,10 @@
+.Cart-button {
+  background-color: rgb(255, 255, 0);
+  color: white;
+}
+.Cart-button:hover {
+  background-color: rgb(204, 204, 0);
+}
+Button {
+  color: black;
+}

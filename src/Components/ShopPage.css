@@ -1,0 +1,289 @@
+.hero {
+  justify-content: space-between;
+  display: flex;
+}
+.hero {
+  background: url("./Assets/bg.jpg") no-repeat;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  color: white;
+  font-size: 20px;
+}
+.hero h1 {
+  display: flex;
+  position: static;
+  color: yellow;
+}
+.container {
+  border: 2px solid rgb(187, 187, 187);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px black;
+  padding: 0;
+  margin: 60px 20px;
+  height: 40vh;
+  display: flex;
+  box-sizing: border-box;
+  width: 20vw;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+.hero .container1 {
+  border: 2px solid rgb(187, 187, 187);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px black;
+  padding: 0 5px;
+  margin: 60px 20px;
+  height: 40vh;
+  border-radius: 30px;
+}
+.hero .container1 h1 {
+  margin-top: 0;
+}
+.hero .container2 {
+  border: 2px solid rgb(187, 187, 187);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px black;
+  padding: 0 5px;
+  margin: 60px 20px;
+  height: 40vh;
+  border-radius: 30px;
+}
+.hero .container3 {
+  border: 2px solid rgb(187, 187, 187);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px black;
+  padding: 0 5px;
+  margin: 60px 20px;
+  height: 40vh;
+  border-radius: 30px;
+}
+.hero .container4 {
+  border: 2px solid rgb(187, 187, 187);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px black;
+  padding: 0 5px;
+  margin: 60px 20px;
+  height: 40vh;
+  border-radius: 30px;
+}
+.birdsofprey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.birdsofprey .container .bird1 {
+  background-image: url("./Assets/birds/birds\ of\ prey/baldeagle.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.birdsofprey .container .bird2 {
+  background-image: url("./Assets/birds/birds\ of\ prey/Great\ Horned\ Owl.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.birdsofprey .container .bird3 {
+  background-image: url("./Assets/birds/birds\ of\ prey/Peregrine\ Falcon.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.birdsofprey .container .bird4 {
+  background-image: url("./Assets/birds/birds\ of\ prey/redtailedhwawk.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+button {
+  height: 50px;
+  width: 50px;
+  top: 30%;
+  position: relative;
+}
+input {
+  top: 30%;
+  height: 45px;
+  width: 70px;
+  position: relative;
+  margin: 0 0;
+  text-align: center;
+  color: black;
+}
+
+.shopLink {
+  margin: 0 3px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  left: 95%;
+
+  position: relative;
+}
+.shopLink p,
+h1 {
+  top: 20%;
+  position: relative;
+}
+i {
+  font-size: 50px;
+  top: 40%;
+  position: relative;
+  transform: translateY(+30%);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.parrot {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.parrot .container .bird1 {
+  background-image: url("./Assets/birds/parrot/African\ Grey\ Parrot.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.parrot .container .bird2 {
+  background-image: url("./Assets/birds/parrot/Budgerigar.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.parrot .container .bird3 {
+  background-image: url("./Assets/birds/parrot/Cockatoo.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.parrot .container .bird4 {
+  background-image: url("./Assets/birds/parrot/macaw.jpg");
+  width: 200px;
+  background-position: center;
+  position: relative;
+  background-size: 10vw 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.addBtn {
+  width: 160px;
+  display: flex;
+  position: relative;
+  top: 40%;
+  flex-direction: column;
+  color: red;
+}
+.addBtn i {
+  top: 40%;
+  position: absolute;
+  color: red;
+}
+.birdsofprey .container .bird1,
+.birdsofprey .container .bird2,
+.birdsofprey .container .bird3,
+.birdsofprey .container .bird4,
+.parrot .container .bird1,
+.parrot .container .bird2,
+.parrot .container .bird3,
+.parrot .container .bird4 {
+  width: 200px;
+}
+/* Responsive styles for tablets (up to 768px width) */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Remove fixed height */
+  }
+
+  .container {
+    width: 80vw; /* Make containers wider for better tablet display */
+    margin: 20px auto; /* Center containers horizontally */
+  }
+
+  .birdsofprey .container .bird1,
+  .birdsofprey .container .bird2,
+  .birdsofprey .container .bird3,
+  .birdsofprey .container .bird4,
+  .parrot .container .bird1,
+  .parrot .container .bird2,
+  .parrot .container .bird3,
+  .parrot .container .bird4 {
+    width: 100%; /* Make bird images take full width */
+  }
+
+  /* Adjust any other tablet-specific styles here */
+}
+
+/* Responsive styles for mobile devices (up to 480px width) */
+@media (max-width: 480px) {
+  .container {
+    width: 90vw; /* Make containers even wider for mobile devices */
+    margin: 10px auto; /* Adjust margin for mobile layout */
+  }
+  .birdsofprey .container .bird1,
+  .birdsofprey .container .bird2,
+  .birdsofprey .container .bird3,
+  .birdsofprey .container .bird4,
+  .parrot .container .bird1,
+  .parrot .container .bird2,
+  .parrot .container .bird3,
+  .parrot .container .bird4 {
+    width: 80%; /* Make bird images slightly smaller for mobile devices */
+  }
+
+  /* Adjust other styles as needed for mobile layout */
+  .addBtn {
+    width: 100%; /* Make buttons take full width */
+  }
+}
